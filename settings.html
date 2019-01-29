@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<script src="js/external/jquery-1.4.2.min.js" language="javascript"></script>
+		<script src="js/external/persistentSettings.min.js" language="javascript"></script>
+		<script src="js/external/range.min.js" language="javascript"></script>
+		<script src="js/external/timer.min.js" language="javascript"></script>
+		<script src="js/external/slider.min.js" language="javascript"></script>
+		<script src="js/settings.js" language="javascript"></script>
+		<script src="js/alarmSettings.js" language="javascript"></script>
+		<script src="js/snoozeSettings.js" language="javascript"></script>
+		<link href="css/settings.css" rel="stylesheet" type="text/css"/> 
+	</head>
+	
+	<body>
+		<!-- alarm/snooze tab -->
+		<div class="tab-box">
+			<ul>
+				<li class="tabLink activeLink" id="cont-1">Alarm</li>
+				<li class="tabLink" id="cont-2">Snooze</li>
+			</ul>
+		</div>
+		<!-- alarm tab -->
+		<div class="tabcontent" id="cont-1-1">
+			<table width="170">
+				<tr>
+					<td>
+						<!-- hour slider -->
+						<div class="slider" id="alarmHourSlider">
+							<input class="slider-input" id="alarmHourSlider_input"/>
+						</div>
+						
+						<!-- minute slider -->
+						<div class="slider" id="alarmMinuteSlider">
+							<input class="slider-input" id="alarmMinuteSlider_input"/>
+						</div>
+						
+						<!-- alarm text -->
+						<div id="alarmTimeText"></div>
+					</td>
+					
+					<td> 
+						<input type="checkbox" id="alarmOnOffCB" hidefocus="true"/> <!-- check box -->
+						<div id="alarmOnOffText"></div> <!-- on off text -->
+					</td>
+				</tr>
+			</table>
+			
+			<!-- select alarm station -->
+			<select name="alarmStationSelect"></select>
+		</div>
+		
+		<!-- snooze tab -->
+		<div class="tabcontent hide" id="cont-2-1">
+			<table width="170">
+				<tr>
+					<td>
+						<!-- hour slider -->
+						<div class="slider" id="snoozeHourSlider">
+							<input class="slider-input" id="snoozeHourSlider_input"/>
+						</div>
+						
+						<!-- minute slider -->
+						<div class="slider" id="snoozeMinuteSlider"> 
+							<input class="slider-input" id="snoozeMinuteSlider_input"/>
+						</div>
+						
+						<!-- snooze text -->
+						<div id="snoozeTimeText"></div>
+					</td>
+					<td> 
+						<input type="checkbox" id="snoozeOnOffCB" hidefocus="true"/> <!-- check box -->
+						<div id="snoozeOnOffText"></div> <!-- on off text -->
+					</td>
+				</tr>
+			</table>
+			
+			<!-- select snooze function -->
+			<select name="snoozeFunctionSelect"></select>
+		</div>
+	</body>
+</html>

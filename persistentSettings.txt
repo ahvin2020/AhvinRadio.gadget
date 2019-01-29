@@ -1,0 +1,9 @@
+~~~~~currStation~~~~~6
+~~~~~alarmHour~~~~~18
+~~~~~alarmMinute~~~~~38
+~~~~~alarmStation~~~~~0
+~~~~~alarmOnOff~~~~~false
+~~~~~snoozeHour~~~~~10
+~~~~~snoozeMinute~~~~~20
+~~~~~snoozeFunction~~~~~1
+~~~~~snoozeOnOff~~~~~false

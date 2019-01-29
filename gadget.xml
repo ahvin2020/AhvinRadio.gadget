@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>Ahvin Radio</name>
+    <namespace>Ahvin</namespace>
+    <version>1.0</version>
+    <author name="Ahvin">
+        <info url="http://ahvin2020.netne.net"/>
+    </author>
+    <copyright>&#169;2010</copyright>
+    <description>
+	Gadget to play online radio station right on your desktop!
+	</description>
+	<icons>
+		<icon src="image/Ahvin Radio.gif"/>
+	</icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="1.0.0" src="AhvinRadio.html" />
+            <platform minPlatformVersion="1.0" />
+            <permissions>Full</permissions>
+        </host>
+    </hosts>
+</gadget>

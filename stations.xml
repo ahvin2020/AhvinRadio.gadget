@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stations>
+  <station>
+    <name>One FM</name>
+	<stationLink>http://www.onefm.com.my/</stationLink>
+    <streamLink>http://127.0.0.1:6498/ms2/1263659867830/0+0+/OCTOSHAPE+h+mpb.onefm.mp3.high/Octoshape</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/oneFM.gif</imageURL>
+  </station>
+  <station>
+    <name>988</name>
+	<stationLink>http://www.988.com.my/</stationLink>
+    <streamLink>http://75.125.106.155:8000</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/988.gif</imageURL>
+  </station>
+  <station>
+    <name>933</name>
+	<stationLink>http://www.yes933.sg/</stationLink>
+    <streamLink>http://www.mediacorpradio.sg/radioliveplayer/asx/yes933/fm933.asx</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/933.gif</imageURL>
+  </station>
+  <station>
+    <name>Lush 99.5</name>
+	<stationLink>http://www.lush995.sg/</stationLink>
+    <streamLink>http://www.mediacorpradio.sg/radioliveplayer/asx/lush/fm995.asx</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/lush995.gif</imageURL>
+  </station>
+  <station>
+    <name>Todays Mix</name>
+	<stationLink>http://www.hkgfm.net</stationLink>
+    <streamLink>http://mediaserver.hkgfm.net:8002</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/hkgFM.gif</imageURL>
+  </station>
+  <station>
+    <name>Symphony</name>
+	<stationLink>http://entertainment.xin.msn.com/en/radio/symphony924/</stationLink>
+    <streamLink>http://www.mediacorpradio.sg/radioliveplayer/asx/sym924/fm924.asx</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/symphony.gif</imageURL>
+  </station>
+   <station>
+    <name>Classical</name>
+	<stationLink>http://www.allclassical.org/</stationLink>
+    <streamLink>http://asx.abacast.com/classical899-classical899-32.asx</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/allclassical.gif</imageURL>
+  </station>
+  <station>
+    <name>Kawaii Radio</name>
+	<stationLink>http://kawaii-radio.net/</stationLink>
+    <streamLink>http://server1.kawaii-radio.net:9000</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/kawaiiRadio.gif</imageURL>
+  </station>
+  <station>
+    <name>Japan Radio</name>
+	<stationLink>http://www.japanaradio.com/</stationLink>
+    <streamLink>http://209.9.227.165:9010</streamLink>
+	<imageURL>http://i792.photobucket.com/albums/yy203/radiolapic/japanRadio.gif</imageURL>
+  </station>
+</stations>

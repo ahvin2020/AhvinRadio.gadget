@@ -1,0 +1,133 @@
+body{
+	margin:0px;
+	width:245px;
+	height:200px;
+	background-image:url("../image/settingBg.gif");
+}
+
+.tab-box ul{
+	margin:0px;
+}
+
+.tab-box ul li{
+	background-color:#fff;
+	color:#000;
+	padding:5px 7px;
+	float:left;
+	cursor:pointer;
+}
+
+.tab-box .activeLink{
+	background-color:#463E41;
+	color:#fff;
+}
+
+.tabcontent{
+	padding:0px;
+}
+
+.hide{
+	display:none;
+}
+
+input{
+	width:50px;
+	text-align:right;
+	padding:1px;
+	margin-right:15px;
+}
+
+input,select,button{
+	vertical-align:middle;
+}
+
+#alarmHourSlider,#snoozeHourSlider{
+	position:absolute;
+	top:49.5px;
+	left:17px;
+	height:0;
+	width:167px;
+}
+
+#alarmMinuteSlider,#snoozeMinuteSlider{
+	position:absolute;
+	top:99.5px;
+	left:17px;
+	height:0;
+	width:167px;
+}
+
+select{
+	position:absolute;
+	top:165px;
+	left:86px;
+	font-size:14px;
+}
+
+#alarmTimeText,#snoozeTimeText{
+	font-family:"Verdana";
+	width:110;
+	position:absolute;
+	top:142px;
+	left:86px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+input{
+	position:absolute;
+	top:38px;
+	left:210px;
+	height:25px;
+	width:25px;
+}
+
+#alarmOnOffText,#snoozeOnOffText{
+	font-family:"Verdana";
+	font-size:15px;
+	position:absolute;
+	top:65px;
+	left:210px;
+	font-weight:bold;
+}
+
+.dynamic-slider-control{
+	position:relative;
+	background-color:ThreeDFace;
+	cursor:default;
+}
+
+.horizontal{
+	width:200px;
+	height:27px;
+}
+
+.vertical{
+	width:29px;
+	height:200px;
+}
+
+.dynamic-slider-control input{
+	display:none
+}
+
+.dynamic-slider-control .handle{
+	position:absolute;
+	font-size:1px;
+	overflow:hidden;
+	cursor:default;
+}
+
+.dynamic-slider-control.horizontal .handle{
+	width:18px;
+	height:21px;
+	background-image:url("../image/handle.horizontal.gif");
+}
+
+.dynamic-slider-control.horizontal .handle.hover{
+	background-image:url("../image/handle.horizontal.hover.gif");
+}
+
+.dynamic-slider-control .line{
+	position:absolute;border:0px;
+}
